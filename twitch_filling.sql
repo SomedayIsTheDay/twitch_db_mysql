@@ -1,0 +1,236 @@
+INSERT users VALUES 
+(1,'willms.rafael','Impedit rerum qui et id sunt.','trutherford@example.com',767746),
+(2,'ciara.hauck','Ex earum qui accusantium et.','jenkins.haleigh@example.org',NULL),
+(3,'wdavis','Incidunt et enim ut repellat.','smitham.reva@example.org',983),
+(4,'ivah.ondricka','Tenetur vitae occaecati qui.','rhoda65@example.com',7850364718),
+(5,'torp.bessie','Ab vero consequatur mollitia.','co\'reilly@example.com',NULL),
+(6,'hosea69','Et doloremque et ullam est.','dylan.jacobs@example.com',NULL),
+(7,'kellie.hauck','Hic alias eius est ex eum.','otto.senger@example.org',35092),
+(8,'letha36','Quam voluptatem quo ratione.','hollis.cronin@example.com',NULL),
+(9,'alanna.jenkins','Ut et sint est totam.','fahey.montana@example.com',NULL),
+(10,'emmie69','Soluta adipisci quia non.','chaya58@example.net',NULL)
+;
+
+INSERT media_types VALUES 
+(1, 'Photo'),
+(2, 'Video'),
+(3, 'GIF');
+
+INSERT media VALUES 
+(1,2,1,'Recusdae.','mp4',18627160,'2021-10-01 20:29:43'),
+(2,2,2,'Ut imi ea eius.','mp4',17881,'2021-02-17 12:46:20'),
+(3,2,3,'Et cosequatur.','mp4',9422216,'2021-01-13 00:35:36'),
+(4,2,4,'Quamautem.','mp4',98748712,'2021-01-07 15:47:06'),
+(5,2,5,'Necesitatibus aut.','mp4',49459,'2021-12-13 23:32:13'),
+(6,2,6,'Nobis olorem.','mp4',857887340,'2021-04-27 06:47:29'),
+(7,2,7,'Ntus ut ea ipsum.','mp4',625,'2021-09-24 18:39:56'),
+(8,2,8,'Magni esciunt.','mp4',80917,'2021-01-03 13:11:23'),
+(9,2,9,'Volptate sit.','mp4',34215,'2021-07-09 02:34:11'),
+(10,2,10,'Atem cnnsequuntur.','mp4',8164215,'2021-02-23 07:49:57'),
+(12,2,1,'Recusansequuntur.','mp4',8164215,'2021-02-23 07:49:57'),
+(11,2,10,'Autcoe.','mp4',18627160,'2021-10-01 20:29:43'),
+(13,2,2,'Ut an  eius.','mp4',17881,'2021-02-17 12:46:20'),
+(14,2,3,'Et cquatur.','mp4',9422216,'2021-01-13 00:35:36'),
+(15,2,4,'Quam aem.','mp4',98748712,'2021-01-07 15:47:06'),
+(16,2,5,'Necesstibus mp4.','molestias',49459,'2021-12-13 23:32:13'),
+(17,2,6,'Nobis orem.','mp4',857887340,'2021-04-27 06:47:29'),
+(18,2,7,'Natus a ea ipsum.','mp4',625,'2021-09-24 18:39:56'),
+(19,2,8,'Magni ciunt.','mp4',80917,'2022-01-03 13:11:23'),
+(20,2,9,'Voluptasit.','mp4',2302,'2021-07-09 02:34:11'), -- видео
+(21,1,NULL,'Auteonsequuntur.','jpg',8164215,'2021-02-23 07:49:57'), 
+(22,1,NULL,'Recudae.','jpg',18627160,'2021-10-01 20:29:43'),
+(23,1,NULL,'Ut an ea eius.','jpg',17881,'2021-02-17 12:46:20'),
+(24,1,NULL,'Et conquatur.','jpg',9422216,'2021-01-13 00:35:36'),
+(25,1,NULL,'Qu autem.','jpg',98748712,'2021-01-07 15:47:06'),
+(26,1,NULL,'Nessitatibus aut.','jpg',49459,'2021-12-13 23:32:13'),
+(27,1,NULL,'Nobis dolorem.','jpg',857887340,'2021-04-27 06:47:29'),
+(28,1,NULL,'Nats aut eaipum.','jpg',625,'2021-09-24 18:39:56'),
+(29,1,NULL,'Man nescunt.','jpg',80917,'2022-01-03 13:11:23'),
+(30,1,NULL,'Voluate st.','jpg',2343,'2021-07-09 02:34:11'),
+(31,1,1,'Aem cnsequuntur.','jpg',8164215,'2021-02-23 07:49:57'),
+(32,1,2,'Recnda','jpg',18627160,'2021-10-01 20:29:43'),
+(33,1,3,'Ut an ea es.','jpg',17881,'2021-02-17 12:46:20'),
+(34,1,4,'Et coequar.','jpg',9422216,'2021-01-13 00:35:36'),
+(35,1,5,'Quam em.','jpg',98748712,'2021-01-07 15:47:06'),
+(36,1,6,'Nessatibus aut.','jpg',49459,'2021-12-13 23:32:13'),
+(37,1,7,'Nob dolem.','jpg',857887340,'2021-04-27 06:47:29'),
+(38,1,8,'Natus t ea sum.','jpg',625,'2021-09-24 18:39:56'),
+(39,1,9,'Mai nciunt.','jpg',80917,'2022-01-03 13:11:23'),
+(40,1,10,'Vuptate sit.','jpg',34234,'2021-07-09 02:34:11'), -- фото
+(41,3,1,'Autemonsequuntur.','GIF',8164215,'2021-02-23 07:49:57'),
+(42,1,2,'Recusand.','jpg',18627160,'2021-10-01 20:29:43'),
+(43,3,3,'Ut ami ea eius.','GIF',17881,'2021-02-17 12:46:20'),
+(44,1,4,'Et csuatur.','jpg',9422216,'2021-01-13 00:35:36'),
+(45,3,5,'Quam tem.','GIF',98748712,'2021-01-07 15:47:06'),
+(46,1,6,'Necessitibus ut.','jpg',49459,'2021-12-13 23:32:13'),
+(47,3,7,'Nobis dolo.','GIF',857887340,'2021-04-27 06:47:29'),
+(48,1,8,'Natus auea ipm.','jpg',625,'2021-09-24 18:39:56'),
+(49,3,9,'Magni nescnt.','GIF',80917,'2022-01-03 13:11:23'),
+(50,1,10,'Voluatit.','jpg',3432,'2021-07-09 02:34:11') -- фото или гиф
+;
+
+INSERT category_types VALUES 
+(1, 'Games'), 
+(2, 'IRL'), 
+(3, 'Music'), 
+(4, 'Creative');
+
+INSERT categories VALUES 
+(1,1,'Dota',21),
+(2,1,'CSGO',22),
+(3,2,'Sports',23),
+(4,3,'Music',24),
+(5,4,'Art',25),
+(6,2,'Just Chatting',26),
+(7,1,'Witcher',27),
+(8,2,'Special Events',28),
+(9,4,'Food & Drink',29),
+(10,1,'League of Legends',30)
+;
+
+INSERT esports VALUES 
+(1), (2), (10);
+
+INSERT channels VALUES
+(1,31,41,'2013-03-31 15:42:49'),
+(2,32,42,'2015-04-29 04:34:50'),
+(3,33,43,'2014-08-05 00:29:49'),
+(4,34,44,'2015-12-15 12:31:05'),
+(5,35,45,'2013-08-20 02:38:11'),
+(6,36,46,'2014-01-04 21:17:39'),
+(7,37,47,'2014-08-28 21:56:26'),
+(8,38,48,'2014-08-15 20:54:50'),
+(9,39,49,'2013-06-18 06:58:43'),
+(10,40,50,'2014-11-12 06:52:28')
+;
+
+INSERT live VALUES 
+(1,0,NULL),(2,1,5),(3,0,NULL),(4,1,2),(5,0,NULL),(6,1,1),(7,0,NULL),(8,1,8),(9,1,9),(10,0,NULL)
+;
+
+INSERT follows_subscriptions (from_user_id, target_channel_id, status, created_at) VALUES
+(1,2,'follower','2020-07-16 11:50:56'),(1,3,'follower','2018-07-16 11:50:56'),
+(1,6,'follower','2018-07-16 11:50:56'),(1,8,'follower','2019-09-07 11:52:31'),
+(1,10,'follower','2019-09-07 11:52:31'),(2,6,'follower','2019-09-07 11:52:31'),
+(2,3,'follower','2020-09-03 19:11:47'),(2,1,'follower','2020-09-03 19:11:47'),
+(2,5,'follower','2020-09-03 19:11:47'),(3,10,'follower','2021-08-11 17:54:21'),
+(3,7,'follower','2021-08-11 17:54:21'),(3,8,'follower','2021-08-11 17:54:21'),
+(3,5,'follower','2018-07-16 11:50:56'),(4,9,'follower','2018-07-16 11:50:56'),
+(4,8,'follower','2018-07-16 11:50:56'),(5,2,'follower','2019-09-07 11:52:31'),
+(5,1,'follower','2019-09-07 11:52:31'),(5,8,'follower','2019-09-07 11:52:31'),
+(6,7,'follower','2020-09-03 19:11:47'),(6,4,'follower','2020-09-03 19:11:47'),
+(7,10,'follower','2020-09-03 19:11:47'),(7,9,'follower','2021-08-11 17:54:21'),
+(8,3,'follower','2021-08-11 17:54:21'),(8,6,'follower','2021-08-11 17:54:21'),
+(9,1,'follower','2022-01-01 21:14:32'),(9,8,'follower','2022-01-01 21:14:32'),
+(10,9,'follower','2022-01-01 21:14:32'),(10,7,'follower','2019-09-07 11:52:31'),
+(10,1,'follower','2019-09-07 11:52:31'),(10,5,'follower','2019-09-07 11:52:31'),
+(3,2,'follower','2021-08-11 17:54:21'),(5,4,'follower','2017-11-12 15:39:21'),
+(1,10,'subscriber','2019-09-07 11:52:31'),(1,3,'subscriber','2020-09-03 19:11:47'),
+(2,3,'subscriber','2018-07-16 11:50:56'),(2,6,'subscriber','2020-09-03 19:11:47'),
+(3,7,'subscriber','2019-09-07 11:52:31'),(3,8,'subscriber','2022-01-01 21:14:32'),
+(4,8,'subscriber','2022-01-01 21:14:32'),(5,1,'subscriber','2022-01-01 21:14:32'),
+(6,4,'subscriber','2020-09-03 19:11:47'),(7,10,'subscriber','2018-07-16 11:50:56'),
+(8,3,'subscriber','2018-07-16 11:50:56'),(8,6,'subscriber','2019-09-07 11:52:31'),
+(9,1,'subscriber','2021-08-11 17:54:21'),(10,9,'subscriber','2021-08-11 17:54:21'),
+(10,7,'subscriber','2021-08-11 17:54:21'),(1,6,'subscriber','2017-11-12 15:39:21')
+;
+
+INSERT messages (from_user_id, to_user_id, body, created_at) VALUES 
+(1,6,'ure velit rerum esse. Impedit ver voluptatum at.','2019-09-07 11:50:31'),
+(1,2,'Sit laudantiumeum non. Exercitationem sunt non vitae rem qui.','2021-09-03 19:11:44'),
+(1,2,'Ut blanditiis quis nim. Et animi voluptatum et esse.','2021-05-26 19:48:39'),
+(2,9,'Voluptatum aut iventore at veniam aut quam.','2019-01-29 06:23:54'),
+(1,2,'Nesciunt sint debiti blanditiis suscipit omnis.','2019-06-28 01:53:33'),
+(2,1,'Consecteturest rerum voluptatem et quidem et.','2020-01-17 08:22:49'),
+(5,7,'Magni odio quiaqui facre magni rerum.','2021-07-16 11:12:56'),
+(3,8,'Mollitia minus dipisci voluptatem.','2019-10-18 21:12:09'),
+(10,9,'olor sit est nihl officiis omnis esse vitae.','2020-02-04 10:36:29'),
+(8,10,'Itaque molestianon neque autem aut magni.','2020-08-11 23:10:10'),
+(9,10,'Sit laudantium eu non. Exercitationem sunt non vitae rem qui.','2021-08-11 16:33:21'),
+(2,3,'Voluptatum aut inntore at veniam aut quam.','2022-01-01 21:11:11'),
+(1,3,'ure velit rerum e. Impedit vero voluptatum at.','2019-08-11 14:29:44'),
+(1,6,'ure velit rerum ese. Impedit vero voluptatum at.','2019-09-07 18:52:31'),
+(3,2,'Sit laudantium  non. Exercitationem sunt non vitae rem qui.','2021-09-03 20:11:47'),
+(4,2,'Ut blanditiis qunim. Et animi voluptatum et esse.','2021-05-26 19:48:50'),
+(2,4,'Voluptatum aut inntore at veniam aut quam.','2019-01-29 06:11:59'),
+(6,3,'Nesciunt sint debi blanditiis suscipit omnis.','2019-06-28 06:22:32'),
+(3,6,'Consectetur est rvoluptatem et quidem et.','2020-01-17 18:11:46'),
+(2,1,'Magni odio quia qcere magni rerum.','2018-07-16 11:45:35'),
+(3,8,'Mollitia minus apci voluptatem.','2019-10-18 21:25:12'),
+(5,2,'olor sit est nihiofficiis omnis esse vitae.','2020-02-04 12:33:23'),
+(6,7,'Itaque molestiae nnneque autem aut magni.','2020-08-11 23:23:23'),
+(9,7,'Sit laudantium eum . Exercitationem sunt non vitae rem qui.','2021-08-11 21:33:21'),
+(5,6,'Voluptatum aut invenore at veniam aut quam.','2022-01-01 11:11:33'),
+(3,6,'ure velit rerum esseImpedit vero voluptatum at.','2019-08-11 07:23:38')
+;
+
+INSERT chats VALUES (1), (2), (3), (4), (5), (6), (7), (8), (9), (10);
+
+INSERT chat_messages (chat_id, from_user_id, body, created_at) VALUES 
+(1,5,'nditiis quibusdam. Voluptate in quam nam fuga a.','2019-12-25 01:30:46'),
+(1,5,'erspiciatis qui fuga nihil deserunt odit sapiente.','2016-11-17 11:54:22'),
+(1,9,'equatur minima et.','2020-11-08 17:11:16'),
+(1,2,'e itaque quaerat modi non porro.','2020-12-14 03:41:45'),
+(1,3,'Aliquid vitae aut sequi quo.','2017-07-11 10:46:09'),
+(1,5,'Ad ratione rem expedita voluptatem at dolore.','2018-05-21 12:20:43'),
+(1,10,'Illum iusto aliquam temporibus maxime quas.','2019-07-26 16:18:34'),
+(1,8,'In quos aliquam praesentium dicta.','2019-02-24 03:46:07'),
+(2,9,'Magni et iste consequuntur dicta pariatur asperiores delectus.','2020-03-05 01:06:56'),
+(2,10,'corporis dolor amet nulla.','2021-09-14 19:33:36'),
+(2,5,'Sequatur minima et.','2018-09-14 19:33:36'),
+(2,3,'Aliquid vitae aut sequi quo.','2017-10-14 19:33:36'),
+(2,4,'nditiis quibusdam. Voluptate in quam nam fuga a.','2019-12-25 01:30:46'),
+(2,1,'erspiciatis qui fuga nihil deserunt odit sapiente.','2016-11-17 11:54:22'),
+(2,1,'equatur minima et.','2020-11-08 17:11:16'),
+(2,5,'e itaque quaerat modi non porro.','2020-12-14 03:41:45'),
+(3,7,'Aliquid vitae aut sequi quo.','2017-07-11 10:46:09'),
+(3,2,'Ad ratione rem expedita voluptatem at dolore.','2018-05-21 12:20:43'),
+(3,4,'Illum iusto aliquam temporibus maxime quas.','2019-07-26 16:18:34'),
+(3,6,'In quos aliquam praesentium dicta.','2019-02-24 03:46:07'),
+(3,1,'Magni et iste consequuntur dicta pariatur asperiores delectus.','2020-03-05 01:06:56'),
+(3,10,'corporis dolor amet nulla.','2021-09-14 19:33:36'),
+(4,7,'Sequatur minima et.','2018-09-14 19:33:36'),
+(4,7,'Aliquid vitae aut sequi quo.','2017-10-14 19:33:36'),
+(4,7,'nditiis quibusdam. Voluptate in quam nam fuga a.','2019-12-25 01:30:46'),
+(4,7,'erspiciatis qui fuga nihil deserunt odit sapiente.','2016-11-17 11:54:22'),
+(4,5,'equatur minima et.','2020-11-08 17:11:16'),
+(4,2,'e itaque quaerat modi non porro.','2020-12-14 03:41:45'),
+(4,6,'Aliquid vitae aut sequi quo.','2017-07-11 10:46:09'),
+(5,4,'Ad ratione rem expedita voluptatem at dolore.','2018-05-21 12:20:43'),
+(5,9,'Illum iusto aliquam temporibus maxime quas.','2019-07-26 16:18:34'),
+(5,9,'In quos aliquam praesentium dicta.','2019-02-24 03:46:07'),
+(5,3,'Magni et iste consequuntur dicta pariatur asperiores delectus.','2020-03-05 01:06:56'),
+(6,10,'corporis dolor amet nulla.','2021-09-14 19:33:36'),
+(6,3,'Sequatur minima et.','2018-09-14 19:33:36'),
+(6,1,'Aliquid vitae aut sequi quo.','2017-10-14 19:33:36'),
+(6,7,'Sequatur minima et.','2018-09-14 19:33:36'),
+(6,6,'Aliquid vitae aut sequi quo.','2017-10-14 19:33:36'),
+(6,8,'nditiis quibusdam. Voluptate in quam nam fuga a.','2019-12-25 01:30:46'),
+(7,8,'erspiciatis qui fuga nihil deserunt odit sapiente.','2016-11-17 11:54:22'),
+(7,1,'equatur minima et.','2020-11-08 17:11:16'),
+(7,9,'e itaque quaerat modi non porro.','2020-12-14 03:41:45'),
+(7,2,'Aliquid vitae aut sequi quo.','2017-07-11 10:46:09'),
+(7,10,'Ad ratione rem expedita voluptatem at dolore.','2018-05-21 12:20:43'),
+(7,5,'Illum iusto aliquam temporibus maxime quas.','2019-07-26 16:18:34'),
+(8,9,'In quos aliquam praesentium dicta.','2019-02-24 03:46:07'),
+(8,5,'Magni et iste consequuntur dicta pariatur asperiores delectus.','2020-03-05 01:06:56'),
+(8,4,'corporis dolor amet nulla.','2021-09-14 19:33:36'),
+(8,4,'Sequatur minima et.','2018-09-14 19:33:36'),
+(8,4,'Aliquid vitae aut sequi quo.','2017-10-14 19:33:36'),
+(8,3,'Sequatur minima et.','2018-09-14 19:33:36'),
+(8,1,'Aliquid vitae aut sequi quo.','2017-10-14 19:33:36'),
+(8,7,'nditiis quibusdam. Voluptate in quam nam fuga a.','2019-12-25 01:30:46'),
+(9,10,'erspiciatis qui fuga nihil deserunt odit sapiente.','2016-11-17 11:54:22'),
+(9,9,'equatur minima et.','2020-11-08 17:11:16'),
+(9,1,'e itaque quaerat modi non porro.','2020-12-14 03:41:45'),
+(9,4,'Aliquid vitae aut sequi quo.','2017-07-11 10:46:09'),
+(9,3,'Ad ratione rem expedita voluptatem at dolore.','2018-05-21 12:20:43'),
+(10,3,'Illum iusto aliquam temporibus maxime quas.','2019-07-26 16:18:34'),
+(10,4,'In quos aliquam praesentium dicta.','2019-02-24 03:46:07'),
+(10,6,'Magni et iste consequuntur dicta pariatur asperiores delectus.','2020-03-05 01:06:56'),
+(10,2,'corporis dolor amet nulla.','2021-09-14 19:33:36'),
+(10,8,'Sequatur minima et.','2018-09-14 19:33:36'),
+(10,3,'Aliquid vitae aut sequi quo.','2017-10-14 19:33:36')
+;
+
+
